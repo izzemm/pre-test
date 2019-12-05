@@ -1,0 +1,8 @@
+package com.priceminister.account;
+
+public class RuleNotInitializedException extends Exception {
+
+    public RuleNotInitializedException(String message) {
+        super(message);
+    }
+}
