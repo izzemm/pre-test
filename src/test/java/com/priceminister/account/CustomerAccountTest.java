@@ -3,6 +3,7 @@ package com.priceminister.account;
 
 import static org.junit.Assert.*;
 
+import com.priceminister.account.exceptions.IllegalBalanceException;
 import org.junit.*;
 
 import com.priceminister.account.implementation.*;

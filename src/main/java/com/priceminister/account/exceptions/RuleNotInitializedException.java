@@ -1,4 +1,4 @@
-package com.priceminister.account;
+package com.priceminister.account.exceptions;
 
 public class RuleNotInitializedException extends Exception {
 

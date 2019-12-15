@@ -1,9 +1,9 @@
 package com.priceminister.account.implementation;
 
 import com.priceminister.account.*;
-import com.priceminister.account.IllegalBalanceException;
-import com.priceminister.account.IllegalDrawnAmountException;
-import com.priceminister.account.RuleNotInitializedException;
+import com.priceminister.account.exceptions.IllegalBalanceException;
+import com.priceminister.account.exceptions.IllegalDrawnAmountException;
+import com.priceminister.account.exceptions.RuleNotInitializedException;
 
 
 public class CustomerAccount implements Account {
